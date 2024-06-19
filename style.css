@@ -2,30 +2,51 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: aeonik;
 }
 html,body{
     height: 100%;
     width: 100%;
 }
+#nav{
+    position: fixed;
+    display: flex;
+    right: 0%;
+    font-size: 22px;
+    margin-top: 20px;
+    padding-right: 30px;
+    padding-top: 10px;
+    
+}
+#nav h3, #nav h4{
+    background-color: black;
+    color: white;
+    border-radius: 500px;
+    padding: 20px 30px;
+    margin-left: 10px;
+}
+#nav h4{
+    background-color: black;
+    color: white;
+    border-radius: 500px;
+    padding: 20px 30px;
+}
 .intro{
     /* background-color: blue; */
     height: 40%;
     width: 100%;
-    padding: 30px;
+    padding: 50px 60px;
 }
 .intro h1{
 font-size: 140px;
 line-height: 130px;
+letter-spacing: -5px;
 }
-h4{
-    display: flex;
-    top: 0;
+.place h4{
     left: 120%;
     width: 160px;
         
 }
-h3{
+.place h3{
     font-size: 25px;
     position: absolute;
 }
@@ -43,6 +64,9 @@ position: absolute;
     color: black;
     font-size: 29px;
     left: 82%;
-    
-    
     }
+.hero{
+    height: 70%;
+    width: 100%;
+    
+}
