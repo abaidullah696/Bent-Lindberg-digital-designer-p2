@@ -1,3 +1,46 @@
-h1 {
-    color: brown;
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: aeonik;
 }
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.intro{
+    /* background-color: blue; */
+    height: 40%;
+    width: 100%;
+    padding: 30px;
+}
+.intro h1{
+font-size: 140px;
+line-height: 130px;
+}
+h4{
+    display: flex;
+    top: 49%;
+    left: 85%;
+    align-content: end;
+    justify-content: end;
+    font-size: 22px;
+    margin-right: 30px;
+    
+}
+h3{
+    font-size: 25px;
+}
+.place h3, .place h4{
+display: flex;
+position: absolute;
+}
+.place i{
+    display: flex;
+    position: absolute;
+    color: black;
+    font-size: 29px;
+    left: 82%;
+    padding-top: 3px;
+    
+    }
